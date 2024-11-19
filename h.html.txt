@@ -1,0 +1,65 @@
+‏<!DOCTYPE html>
+‏<html lang="en">
+‏<head>
+‏    <meta charset="UTF-8">
+‏    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‏    <title>Sample HTML Structure</title>
+‏    <link rel="stylesheet" href="styles.css">
+‏</head>
+‏<body>
+
+‏    <header>
+‏        <h1>Website Title</h1>
+‏        <nav>
+‏            <ul>
+‏                <li><a href="#home">Home</a></li>
+‏                <li><a href="#about">About</a></li>
+‏                <li><a href="#contact">Contact</a></li>
+‏            </ul>
+‏        </nav>
+‏    </header>
+
+‏    <main>
+‏        <section id="home">
+‏            <h2>Welcome to Our Website</h2>
+‏            <p>This is the home section where we introduce our website. Enjoy your stay!</p>
+‏        </section>
+
+‏        <section id="about">
+‏            <h2>About Us</h2>
+‏            <p>We are a company dedicated to providing the best services possible.</p>
+‏            <h3>Our Values</h3>
+‏            <ul>
+‏                <li>Integrity</li>
+‏                <li>Quality</li>
+‏                <li>Innovation</li>
+‏            </ul>
+‏        </section>
+
+‏        <section id="contact">
+‏            <h2>Contact Us</h2>
+‏            <form action="/submit" method="post">
+‏                <label for="name">Name:</label>
+‏                <input type="text" id="name" name="name" required>
+                
+‏                <label for="email">Email:</label>
+‏                <input type="email" id="email" name="email" required>
+                
+‏                <label for="message">Message:</label>
+‏                <textarea id="message" name="message" required></textarea>
+                
+‏                <button type="submit">Send Message</button>
+‏            </form>
+‏        </section>
+‏    </main>
+
+‏    <footer>
+‏        <p>&copy; 2023 Website Name. All rights reserved.</p>
+‏        <ul>
+‏            <li><a href="#privacy">Privacy Policy</a></li>
+‏            <li><a href="#terms">Terms of Service</a></li>
+‏        </ul>
+‏    </footer>
+
+‏</body>
+‏</html>
